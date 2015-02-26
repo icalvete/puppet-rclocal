@@ -9,7 +9,7 @@ class rclocal {
 
   concat::fragment{ 'rclocal_header':
     target  => $rclocal_file,
-    content => "#!/bin/sh\n# Managed by puppet - do not modify\ntouch /var/lock/subsys/local\n",  #newlines \n and tabs \t MUST be specified in DOUBLE-quoted strings
+    content => "#!/bin/sh\n# Managed by puppet - do not modify\ntouch /var/lock/subsys/local\n",
     order   => '01'
   }
 }
