@@ -6,7 +6,7 @@ It will overwrite `/etc/rc.d/rc.local`.
 
 # Usage
 
-Sample Hiera configurations
+Sample Hiera configuration
 
 `serverone.yaml`
 
@@ -18,10 +18,10 @@ Sample Hiera configurations
 
 Sample module
 
-class sssd {
+  class sssd {
 
-  ::rclocal::register{ 'sssd': 
-    content => "/usr/sbin/fstrim /\n/usr/sbin/fstrim /boot\n",
-  }
+    ::rclocal::register{ 'sssd': 
+      content => "/usr/sbin/fstrim /\n/usr/sbin/fstrim /boot\n",
+    }
     
-}
+  }
