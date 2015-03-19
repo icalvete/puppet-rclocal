@@ -18,10 +18,8 @@ Sample Hiera configuration
 
 Sample module
 
-  class sssd {
-
-    ::rclocal::register{ 'sssd': 
-      content => "/usr/sbin/fstrim /\n/usr/sbin/fstrim /boot\n",
+    class sssd {
+      ::rclocal::register{ 'sssd': 
+        content => "/usr/sbin/fstrim /\n/usr/sbin/fstrim /boot\n",
+      }
     }
-    
-  }
