@@ -1,0 +1,26 @@
+{
+  "name": "novakv-rclocal",
+  "version": "1.0.0",
+  "author": "novakv",
+  "summary": "Manages /etc/rc.d/rc.local",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/novakv/puppet-rclocal.git",
+  "project_page": "https://github.com/novakv/puppet-rclocal",
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.7.3"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6"
+      ]
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.5.0"}
+  ]
+}
