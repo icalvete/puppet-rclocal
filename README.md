@@ -1,8 +1,10 @@
 #puppet-rclocal
 
-This module is used by other modules to update content in `/etc/rc.d/rc.local`.
+This module is used by other modules to update content in `/etc/rc.local`.
+ 
+[![Build Status](https://secure.travis-ci.org/icalvete/puppet-puppet-rclocal.png)](http://travis-ci.org/icalvete/puppet-puppet-rclocal)
 
-It will overwrite `/etc/rc.d/rc.local`.
+It will overwrite `/etc/rc.local`.
 
 # Usage
 
