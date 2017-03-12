@@ -2,7 +2,7 @@
 
 This module is used by other modules to update content in `/etc/rc.local`.
  
-[![Build Status](https://secure.travis-ci.org/icalvete/puppet-puppet-rclocal.png)](http://travis-ci.org/icalvete/puppet-puppet-rclocal)
+[![Build Status](https://secure.travis-ci.org/icalvete/puppet-rclocal.png)](http://travis-ci.org/icalvete/puppet-rclocal)
 
 It will overwrite `/etc/rc.local`.
 
