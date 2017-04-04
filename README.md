@@ -1,4 +1,4 @@
-#puppet-rclocal
+# puppet-rclocal
 
 This module is used by other modules to update content in `/etc/rc.local`.
 
@@ -26,6 +26,6 @@ Sample module
       }
     }
 
-##Authors:
+## Authors:
 
 Israel Calvete Talavera <icalvete@gmail.com>
